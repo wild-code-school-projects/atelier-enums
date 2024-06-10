@@ -23,3 +23,6 @@ Task Summary for Product Management
         Create an Index view within the Product controller to display the products.
         Utilize a loop (e.g., foreach loop) to iterate through the products and display them.
         Display the name of each category followed by the list of products belonging to that category.
+
+
+![image](https://image.noelshack.com/fichiers/2024/24/1/1718025960-screenshot-2024-06-10-152226.png)
