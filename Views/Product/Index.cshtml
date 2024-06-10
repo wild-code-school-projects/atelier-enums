@@ -1,0 +1,25 @@
+﻿@model IEnumerable<Product>
+
+
+<div class="container">
+    <h1>Liste des Produits</h1>
+    <ul class="list-group">
+        @foreach (var product in Model)
+        {
+            <li class="list-group-item">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h4>@product.Name</h4>
+                    </div>
+                    <div class="col-md-3">
+                        <p>Catégorie: @product.Category</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p>@product.Description</p>
+                        <p>Prix: @product.Price</p>
+                    </div>
+                </div>
+            </li>
+        }
+    </ul>
+</div>
